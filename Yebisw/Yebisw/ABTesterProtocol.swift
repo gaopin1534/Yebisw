@@ -9,5 +9,17 @@
 import Foundation
 
 protocol ABTesterProtocol {
+    associatedtype ABTestPatternType: ABTestPaternProtocol
+    private var patterns: [String: ABTestPatternType] { get set }
+    func getCurrentPatternKey() -> String
+}
+
+extension ABTesterProtocol {
+    mutating func register(_ pattern: ABTestPatternType) {
+        patterns.updateValue(pattern, forKey: pattern.key)
+    }
     
+    func getTargetPattern() -> ABTestPatternType {
+        return patterns[getCurrentPatternKey()]
+    }
 }
