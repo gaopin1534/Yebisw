@@ -9,8 +9,8 @@
 import Foundation
 
 protocol ABTesterProtocol {
-    associatedtype ABTestPatternType: ABTestPaternProtocol
-    private var patterns: [String: ABTestPatternType] { get set }
+    associatedtype ABTestPatternType: ABTestPatternProtocol
+    var patterns: [String: ABTestPatternType] { get set }
     func getCurrentPatternKey() -> String
 }
 
@@ -19,7 +19,7 @@ extension ABTesterProtocol {
         patterns.updateValue(pattern, forKey: pattern.key)
     }
     
-    func getTargetPattern() -> ABTestPatternType {
+    private func getTargetPattern() -> ABTestPatternType? {
         return patterns[getCurrentPatternKey()]
     }
 }

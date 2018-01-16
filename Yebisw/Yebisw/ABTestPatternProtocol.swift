@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ABTestPaternProtocol {
-    let key: String { get }
+protocol ABTestPatternProtocol {
+    var key: String { get }
 }
