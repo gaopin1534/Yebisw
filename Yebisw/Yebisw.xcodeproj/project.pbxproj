@@ -26,6 +26,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B231F8BC20417E2E00728E63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		17F60EAF200D9D760013C826 /* Yebisw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yebisw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F60EB2200D9D760013C826 /* Yebisw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yebisw.h; sourceTree = "<group>"; };
@@ -37,6 +49,8 @@
 		B231F8932041785A00728E63 /* ABTestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABTestProtocol.swift; sourceTree = "<group>"; };
 		B231F8942041785A00728E63 /* ABTestObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABTestObjectProtocol.swift; sourceTree = "<group>"; };
 		B231F8952041785A00728E63 /* ABTestKeyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABTestKeyProtocol.swift; sourceTree = "<group>"; };
+		B231F8A320417DD700728E63 /* YebiswGenSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YebiswGenSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B231F8BE20417E2E00728E63 /* yebiswgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yebiswgen; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F60EB9200D9D760013C826 /* Yebisw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F89F20417DD700728E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F8BB20417E2E00728E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +101,8 @@
 			children = (
 				17F60EAF200D9D760013C826 /* Yebisw.framework */,
 				17F60EB8200D9D760013C826 /* YebiswTests.xctest */,
+				B231F8A320417DD700728E63 /* YebiswGenSupport.framework */,
+				B231F8BE20417E2E00728E63 /* yebiswgen */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +110,8 @@
 		17F60EB1200D9D760013C826 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B231F89D20417D4B00728E63 /* yebiswgen */,
+				B231F89C20417D0F00728E63 /* YebiswGenSupport */,
 				B231F8912041783B00728E63 /* Yebisw */,
 				17F60EB2200D9D760013C826 /* Yebisw.h */,
 				17F60EB3200D9D760013C826 /* Info.plist */,
@@ -114,6 +146,20 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		B231F89C20417D0F00728E63 /* YebiswGenSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YebiswGenSupport;
+			sourceTree = "<group>";
+		};
+		B231F89D20417D4B00728E63 /* yebiswgen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = yebiswgen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -122,6 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F60EC0200D9D760013C826 /* Yebisw.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F8A020417DD700728E63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,13 +217,48 @@
 			productReference = 17F60EB8200D9D760013C826 /* YebiswTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B231F8A220417DD700728E63 /* YebiswGenSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B231F8B420417DD800728E63 /* Build configuration list for PBXNativeTarget "YebiswGenSupport" */;
+			buildPhases = (
+				B231F89E20417DD700728E63 /* Sources */,
+				B231F89F20417DD700728E63 /* Frameworks */,
+				B231F8A020417DD700728E63 /* Headers */,
+				B231F8A120417DD700728E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YebiswGenSupport;
+			productName = YebiswGenSupport;
+			productReference = B231F8A320417DD700728E63 /* YebiswGenSupport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B231F8BD20417E2E00728E63 /* yebiswgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B231F8C220417E2E00728E63 /* Build configuration list for PBXNativeTarget "yebiswgen" */;
+			buildPhases = (
+				B231F8BA20417E2E00728E63 /* Sources */,
+				B231F8BB20417E2E00728E63 /* Frameworks */,
+				B231F8BC20417E2E00728E63 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yebiswgen;
+			productName = yebiswgen;
+			productReference = B231F8BE20417E2E00728E63 /* yebiswgen */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		17F60EA6200D9D760013C826 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "高松　幸平";
 				TargetAttributes = {
@@ -181,6 +269,14 @@
 					};
 					17F60EB7200D9D760013C826 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B231F8A220417DD700728E63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B231F8BD20417E2E00728E63 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -199,6 +295,8 @@
 			targets = (
 				17F60EAE200D9D760013C826 /* Yebisw */,
 				17F60EB7200D9D760013C826 /* YebiswTests */,
+				B231F8A220417DD700728E63 /* YebiswGenSupport */,
+				B231F8BD20417E2E00728E63 /* yebiswgen */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +310,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		17F60EB6200D9D760013C826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F8A120417DD700728E63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,6 +342,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F60EBE200D9D760013C826 /* YebiswTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F89E20417DD700728E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B231F8BA20417E2E00728E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +558,76 @@
 			};
 			name = Release;
 		};
+		B231F8B520417DD800728E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = YebiswGenSupport/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "-gaopin1534.YebiswGenSupport";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B231F8B620417DD800728E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = YebiswGenSupport/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "-gaopin1534.YebiswGenSupport";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		B231F8C320417E2E00728E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B231F8C420417E2E00728E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +654,24 @@
 			buildConfigurations = (
 				17F60EC7200D9D760013C826 /* Debug */,
 				17F60EC8200D9D760013C826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B231F8B420417DD800728E63 /* Build configuration list for PBXNativeTarget "YebiswGenSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B231F8B520417DD800728E63 /* Debug */,
+				B231F8B620417DD800728E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B231F8C220417E2E00728E63 /* Build configuration list for PBXNativeTarget "yebiswgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B231F8C320417E2E00728E63 /* Debug */,
+				B231F8C420417E2E00728E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
