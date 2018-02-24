@@ -14,6 +14,11 @@
 		B231F8972041785A00728E63 /* ABTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231F8932041785A00728E63 /* ABTestProtocol.swift */; };
 		B231F8982041785A00728E63 /* ABTestObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231F8942041785A00728E63 /* ABTestObjectProtocol.swift */; };
 		B231F8992041785A00728E63 /* ABTestKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231F8952041785A00728E63 /* ABTestKeyProtocol.swift */; };
+		B231F8C620417EDA00728E63 /* YebiswGenSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8A320417DD700728E63 /* YebiswGenSupport.framework */; };
+		B231F8C720417EE000728E63 /* Yebisw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F60EAF200D9D760013C826 /* Yebisw.framework */; };
+		B231F8CB20417F5B00728E63 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8C820417F5B00728E63 /* SourceKittenFramework.framework */; };
+		B231F8CC20417F5B00728E63 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8C920417F5B00728E63 /* SWXMLHash.framework */; };
+		B231F8CD20417F5B00728E63 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8CA20417F5B00728E63 /* Yams.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,9 @@
 		B231F8952041785A00728E63 /* ABTestKeyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABTestKeyProtocol.swift; sourceTree = "<group>"; };
 		B231F8A320417DD700728E63 /* YebiswGenSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YebiswGenSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B231F8BE20417E2E00728E63 /* yebiswgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yebiswgen; sourceTree = BUILT_PRODUCTS_DIR; };
+		B231F8C820417F5B00728E63 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
+		B231F8C920417F5B00728E63 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		B231F8CA20417F5B00728E63 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B231F8CD20417F5B00728E63 /* Yams.framework in Frameworks */,
+				B231F8C720417EE000728E63 /* Yebisw.framework in Frameworks */,
+				B231F8CB20417F5B00728E63 /* SourceKittenFramework.framework in Frameworks */,
+				B231F8CC20417F5B00728E63 /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B231F8C620417EDA00728E63 /* YebiswGenSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +155,9 @@
 		B231F89B204178BD00728E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B231F8C820417F5B00728E63 /* SourceKittenFramework.framework */,
+				B231F8C920417F5B00728E63 /* SWXMLHash.framework */,
+				B231F8CA20417F5B00728E63 /* Yams.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
