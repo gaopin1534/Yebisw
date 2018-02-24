@@ -47,7 +47,7 @@
 /* Begin PBXFileReference section */
 		17F60EAF200D9D760013C826 /* Yebisw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yebisw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F60EB2200D9D760013C826 /* Yebisw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yebisw.h; sourceTree = "<group>"; };
-		17F60EB3200D9D760013C826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F60EB3200D9D760013C826 /* Yebisw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yebisw-Info.plist"; sourceTree = "<group>"; };
 		17F60EB8200D9D760013C826 /* YebiswTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YebiswTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F60EBD200D9D760013C826 /* YebiswTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YebiswTests.swift; sourceTree = "<group>"; };
 		17F60EBF200D9D760013C826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 				B231F89C20417D0F00728E63 /* YebiswGenSupport */,
 				B231F8912041783B00728E63 /* Yebisw */,
 				17F60EB2200D9D760013C826 /* Yebisw.h */,
-				17F60EB3200D9D760013C826 /* Info.plist */,
+				17F60EB3200D9D760013C826 /* Yebisw-Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
