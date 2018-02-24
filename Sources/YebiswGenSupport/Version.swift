@@ -8,6 +8,6 @@
 
 import Foundation
 
-public final struct Version {
+public struct Version {
     public static let current = "0.1.0"
 }
