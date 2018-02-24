@@ -8,14 +8,14 @@
 
 import Foundation
 
-protocol ABTestObjectProtocol {
+public protocol ABTestObjectProtocol {
     associatedtype ABTestPatternType: ABTestPatternProtocol
     associatedtype ABTestKey: ABTestKeyProtocol
     func getCurrentPatternKey() -> ABTestKey
 }
 
 extension ABTestObjectProtocol {
-    private func getTargetPattern() -> ABTestPatternType {
-        return getCurrentPatternKey().pattern
+    private func getTargetPattern() -> ABTestPatternType? {
+        return getCurrentPatternKey().pattern as? Self.ABTestPatternType
     }
 }

@@ -8,6 +8,7 @@
 
 import Foundation
 
-protocol ABTestKeyProtocol: RawRepresentable {
+public protocol ABTestKeyProtocol: RawRepresentable {
+    associatedtype ABTestPatternType: ABTestPatternProtocol
     var pattern: ABTestPatternProtocol { get }
 }

@@ -8,4 +8,4 @@
 
 import Foundation
 
-protocol ABTestPatternProtocol {}
+public protocol ABTestPatternProtocol {}
