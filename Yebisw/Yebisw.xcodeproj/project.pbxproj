@@ -19,6 +19,7 @@
 		B231F8CB20417F5B00728E63 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8C820417F5B00728E63 /* SourceKittenFramework.framework */; };
 		B231F8CC20417F5B00728E63 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8C920417F5B00728E63 /* SWXMLHash.framework */; };
 		B231F8CD20417F5B00728E63 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8CA20417F5B00728E63 /* Yams.framework */; };
+		B231F8CF204180E600728E63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231F8CE204180E600728E63 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B231F8C820417F5B00728E63 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
 		B231F8C920417F5B00728E63 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
 		B231F8CA20417F5B00728E63 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
+		B231F8CE204180E600728E63 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		B231F89D20417D4B00728E63 /* yebiswgen */ = {
 			isa = PBXGroup;
 			children = (
+				B231F8CE204180E600728E63 /* main.swift */,
 			);
 			path = yebiswgen;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 					};
 					B231F8BD20417E2E00728E63 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -372,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B231F8CF204180E600728E63 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,11 +628,14 @@
 		B231F8C320417E2E00728E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -635,8 +643,10 @@
 		B231F8C420417E2E00728E63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
