@@ -20,6 +20,7 @@
 		B231F8CC20417F5B00728E63 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8C920417F5B00728E63 /* SWXMLHash.framework */; };
 		B231F8CD20417F5B00728E63 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231F8CA20417F5B00728E63 /* Yams.framework */; };
 		B231F8CF204180E600728E63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231F8CE204180E600728E63 /* main.swift */; };
+		B2E4442C20418AD2003CA84A /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E4442B20418AD2003CA84A /* Version.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B231F8CA20417F5B00728E63 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = ../../../../../../Downloads/Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
 		B231F8CE204180E600728E63 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B2E4442A20418914003CA84A /* Yebisw.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Yebisw.xcconfig; sourceTree = "<group>"; };
+		B2E4442B20418AD2003CA84A /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		B231F89C20417D0F00728E63 /* YebiswGenSupport */ = {
 			isa = PBXGroup;
 			children = (
+				B2E4442B20418AD2003CA84A /* Version.swift */,
 			);
 			path = YebiswGenSupport;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B231F8992041785A00728E63 /* ABTestKeyProtocol.swift in Sources */,
+				B2E4442C20418AD2003CA84A /* Version.swift in Sources */,
 				B231F8972041785A00728E63 /* ABTestProtocol.swift in Sources */,
 				B231F8982041785A00728E63 /* ABTestObjectProtocol.swift in Sources */,
 				B231F8962041785A00728E63 /* ABTestPatternProtocol.swift in Sources */,
