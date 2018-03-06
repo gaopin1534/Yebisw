@@ -15,6 +15,9 @@
 		1724C9E1204E83920093F42D /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724C9E0204E83920093F42D /* ExampleTests.swift */; };
 		B2794B19204ECDA900AB15DF /* Yebisw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1724C9F8204E866E0093F42D /* Yebisw.framework */; };
 		B2794B1A204ECDA900AB15DF /* Yebisw.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1724C9F8204E866E0093F42D /* Yebisw.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2794B23204ED05800AB15DF /* CertainABTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2794B22204ED05800AB15DF /* CertainABTester.swift */; };
+		B2794B27204ED09400AB15DF /* CertainABTestPatternDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2794B26204ED09400AB15DF /* CertainABTestPatternDefault.swift */; };
+		B2794B2B204ED22B00AB15DF /* CertainABTestPatternB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2794B2A204ED22B00AB15DF /* CertainABTestPatternB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		1724C9E0204E83920093F42D /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		1724C9E2204E83920093F42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Yebisw.xcodeproj; path = ../Yebisw.xcodeproj; sourceTree = "<group>"; };
+		B2794B22204ED05800AB15DF /* CertainABTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertainABTester.swift; sourceTree = "<group>"; };
+		B2794B26204ED09400AB15DF /* CertainABTestPatternDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertainABTestPatternDefault.swift; sourceTree = "<group>"; };
+		B2794B2A204ED22B00AB15DF /* CertainABTestPatternB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertainABTestPatternB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 			children = (
 				1724C9CB204E83920093F42D /* AppDelegate.swift */,
 				1724C9CD204E83920093F42D /* ViewController.swift */,
+				B2794B22204ED05800AB15DF /* CertainABTester.swift */,
+				B2794B26204ED09400AB15DF /* CertainABTestPatternDefault.swift */,
+				B2794B2A204ED22B00AB15DF /* CertainABTestPatternB.swift */,
 				1724C9CF204E83920093F42D /* Main.storyboard */,
 				1724C9D2204E83920093F42D /* Assets.xcassets */,
 				1724C9D4204E83920093F42D /* LaunchScreen.storyboard */,
@@ -283,6 +292,9 @@
 			files = (
 				1724C9CE204E83920093F42D /* ViewController.swift in Sources */,
 				1724C9CC204E83920093F42D /* AppDelegate.swift in Sources */,
+				B2794B23204ED05800AB15DF /* CertainABTester.swift in Sources */,
+				B2794B27204ED09400AB15DF /* CertainABTestPatternDefault.swift in Sources */,
+				B2794B2B204ED22B00AB15DF /* CertainABTestPatternB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
