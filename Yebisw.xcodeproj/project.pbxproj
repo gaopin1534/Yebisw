@@ -23,7 +23,7 @@
 /* Begin PBXBuildFile section */
 		B2D1AB8520428EB0006B3F73 /* ABTestKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1AB8420428EB0006B3F73 /* ABTestKeyProtocol.swift */; };
 		B2D1AB8720428F00006B3F73 /* ABTestPatternProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1AB8620428F00006B3F73 /* ABTestPatternProtocol.swift */; };
-		B2D1AB8920428F36006B3F73 /* ABTestObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1AB8820428F36006B3F73 /* ABTestObjectProtocol.swift */; };
+		B2D1AB8920428F36006B3F73 /* ABTesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1AB8820428F36006B3F73 /* ABTesterProtocol.swift */; };
 		B2D1AB8B20428F8E006B3F73 /* ABTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1AB8A20428F8E006B3F73 /* ABTestProtocol.swift */; };
 		OBJ_21 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_27 /* YebiswTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* YebiswTests.swift */; };
@@ -51,7 +51,7 @@
 		1724C9EC204E844B0093F42D /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = "<group>"; };
 		B2D1AB8420428EB0006B3F73 /* ABTestKeyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestKeyProtocol.swift; sourceTree = "<group>"; };
 		B2D1AB8620428F00006B3F73 /* ABTestPatternProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestPatternProtocol.swift; sourceTree = "<group>"; };
-		B2D1AB8820428F36006B3F73 /* ABTestObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestObjectProtocol.swift; sourceTree = "<group>"; };
+		B2D1AB8820428F36006B3F73 /* ABTesterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTesterProtocol.swift; sourceTree = "<group>"; };
 		B2D1AB8A20428F8E006B3F73 /* ABTestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestProtocol.swift; sourceTree = "<group>"; };
 		OBJ_12 /* YebiswTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YebiswTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				B2D1AB8420428EB0006B3F73 /* ABTestKeyProtocol.swift */,
 				B2D1AB8620428F00006B3F73 /* ABTestPatternProtocol.swift */,
-				B2D1AB8820428F36006B3F73 /* ABTestObjectProtocol.swift */,
+				B2D1AB8820428F36006B3F73 /* ABTesterProtocol.swift */,
 				B2D1AB8A20428F8E006B3F73 /* ABTestProtocol.swift */,
 			);
 			name = Yebisw;
@@ -236,7 +236,7 @@
 			files = (
 				B2D1AB8B20428F8E006B3F73 /* ABTestProtocol.swift in Sources */,
 				B2D1AB8520428EB0006B3F73 /* ABTestKeyProtocol.swift in Sources */,
-				B2D1AB8920428F36006B3F73 /* ABTestObjectProtocol.swift in Sources */,
+				B2D1AB8920428F36006B3F73 /* ABTesterProtocol.swift in Sources */,
 				B2D1AB8720428F00006B3F73 /* ABTestPatternProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
