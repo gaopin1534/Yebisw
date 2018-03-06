@@ -23,6 +23,20 @@
 			remoteGlobalIDString = 1724C9C7204E83920093F42D;
 			remoteInfo = Example;
 		};
+		1724C9F5204E866E0093F42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Yebisw::YebiswTests::Product";
+			remoteInfo = YebiswTests;
+		};
+		1724C9F7204E866E0093F42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Yebisw::Yebisw::Product";
+			remoteInfo = Yebisw;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +50,7 @@
 		1724C9DC204E83920093F42D /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1724C9E0204E83920093F42D /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		1724C9E2204E83920093F42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Yebisw.xcodeproj; path = ../Yebisw.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,7 @@
 		1724C9BF204E83920093F42D = {
 			isa = PBXGroup;
 			children = (
+				1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */,
 				1724C9CA204E83920093F42D /* Example */,
 				1724C9DF204E83920093F42D /* ExampleTests */,
 				1724C9C9204E83920093F42D /* Products */,
@@ -94,6 +110,15 @@
 				1724C9E2204E83920093F42D /* Info.plist */,
 			);
 			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		1724C9EF204E866E0093F42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1724C9F6204E866E0093F42D /* YebiswTests.xctest */,
+				1724C9F8204E866E0093F42D /* Yebisw.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +191,12 @@
 			mainGroup = 1724C9BF204E83920093F42D;
 			productRefGroup = 1724C9C9204E83920093F42D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1724C9EF204E866E0093F42D /* Products */;
+					ProjectRef = 1724C9EE204E866E0093F42D /* Yebisw.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1724C9C7204E83920093F42D /* Example */,
@@ -173,6 +204,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1724C9F6204E866E0093F42D /* YebiswTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = YebiswTests.xctest;
+			remoteRef = 1724C9F5204E866E0093F42D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1724C9F8204E866E0093F42D /* Yebisw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Yebisw.framework;
+			remoteRef = 1724C9F7204E866E0093F42D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1724C9C6204E83920093F42D /* Resources */ = {
