@@ -16,6 +16,10 @@ struct CertainABTester: ABTesterProtocol {
     
     typealias ABTestPatternType = CertainABTestPatternDefault
     typealias ABTestKey = CertainABTestKey
+    
+    func getLable() -> String {
+        return getCurrentPatternKey().pattern.getLabel()
+    }
 }
 
 enum CertainABTestKey: ABTestKeyProtocol {
@@ -29,7 +33,7 @@ enum CertainABTestKey: ABTestKeyProtocol {
         }
     }
     
-    var pattern: ABTestPatternProtocol {
+    var pattern: ABTestPatternType {
         switch self {
         case .a:
             return CertainABTestPatternDefault()

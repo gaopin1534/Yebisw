@@ -9,5 +9,5 @@ import Foundation
 
 public protocol ABTestKeyProtocol: RawRepresentable {
     associatedtype ABTestPatternType: ABTestPatternProtocol
-    var pattern: ABTestPatternProtocol { get }
+    var pattern: ABTestPatternType { get }
 }

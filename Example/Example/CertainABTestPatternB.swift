@@ -9,5 +9,7 @@
 import Foundation
 
 class CertainABTestPatternB: CertainABTestPatternDefault {
-    
+    override func getLabel() -> String {
+        return "May the force be with us"
+    }
 }

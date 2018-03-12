@@ -10,5 +10,7 @@ import Foundation
 import Yebisw
 
 class CertainABTestPatternDefault: ABTestPatternProtocol {
-    
+    func getLabel() -> String {
+        return "Live long and prosper."
+    }
 }
