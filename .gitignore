@@ -1,3 +1,5 @@
+### https://raw.github.com/github/gitignore/320a610b9ffba3ff28166370b6dd9f73096e34b7/Swift.gitignore
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -64,6 +66,7 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots
+fastlane/screenshots/**/*.png
 fastlane/test_output
+
 
