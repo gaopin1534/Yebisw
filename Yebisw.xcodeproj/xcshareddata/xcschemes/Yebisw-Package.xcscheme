@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Yebisw::yebiswgen"
-               BuildableName = "yebiswgen"
-               BlueprintName = "yebiswgen"
+               BlueprintIdentifier = "SourceKitten::Clang_C"
+               BuildableName = "Clang_C.framework"
+               BlueprintName = "Clang_C"
+               ReferencedContainer = "container:Yebisw.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Yebisw::YebiswGenCore"
+               BuildableName = "YebiswGenCore.framework"
+               BlueprintName = "YebiswGenCore"
                ReferencedContainer = "container:Yebisw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,37 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Yams::Yams"
-               BuildableName = "Yams.framework"
-               BlueprintName = "Yams"
-               ReferencedContainer = "container:Yebisw.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SourceKitten::SourceKit"
-               BuildableName = "SourceKit.framework"
-               BlueprintName = "SourceKit"
-               ReferencedContainer = "container:Yebisw.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SWXMLHash::SWXMLHash"
-               BuildableName = "SWXMLHash.framework"
-               BlueprintName = "SWXMLHash"
+               BlueprintIdentifier = "SourceKitten::SourceKittenFramework"
+               BuildableName = "SourceKittenFramework.framework"
+               BlueprintName = "SourceKittenFramework"
                ReferencedContainer = "container:Yebisw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -98,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SourceKitten::Clang_C"
-               BuildableName = "Clang_C.framework"
-               BlueprintName = "Clang_C"
+               BlueprintIdentifier = "Yebisw::yebiswgen"
+               BuildableName = "yebiswgen"
+               BlueprintName = "yebiswgen"
                ReferencedContainer = "container:Yebisw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -126,9 +112,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SourceKitten::SourceKittenFramework"
-               BuildableName = "SourceKittenFramework.framework"
-               BlueprintName = "SourceKittenFramework"
+               BlueprintIdentifier = "SourceKitten::SourceKit"
+               BuildableName = "SourceKit.framework"
+               BlueprintName = "SourceKit"
+               ReferencedContainer = "container:Yebisw.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Yams::Yams"
+               BuildableName = "Yams.framework"
+               BlueprintName = "Yams"
+               ReferencedContainer = "container:Yebisw.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SWXMLHash::SWXMLHash"
+               BuildableName = "SWXMLHash.framework"
+               BlueprintName = "SWXMLHash"
                ReferencedContainer = "container:Yebisw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -157,9 +171,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Yebisw::yebiswgen"
-            BuildableName = "yebiswgen"
-            BlueprintName = "yebiswgen"
+            BlueprintIdentifier = "SourceKitten::Clang_C"
+            BuildableName = "Clang_C.framework"
+            BlueprintName = "Clang_C"
             ReferencedContainer = "container:Yebisw.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
