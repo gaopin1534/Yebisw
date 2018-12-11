@@ -10,6 +10,8 @@ let package = Package(
         .library(
             name: "Yebisw",
             targets: ["Yebisw"]),
+        .executable(name: "yebiswgen", targets: ["yebiswgen"]),
+        .library(name: "YebiswGenCore", targets: ["YebiswGenCore"])
         ],
     dependencies: [
         .package(url: "https://github.com/jpsim/SourceKitten.git", from: "0.21.3"),
