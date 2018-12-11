@@ -22,7 +22,7 @@ let package = Package(
 //         Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "YebiswGen",
-            dependencies: ["Yebisw", "SourceKittenFramework"],
+            dependencies: ["Yebisw", "SourceKittenFramework", "Commander"],
             path: "Sources/YebiswGen"),
         .target(name: "Yebisw",
                 path: "Sources/Yebisw"),
