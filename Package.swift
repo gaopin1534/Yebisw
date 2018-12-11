@@ -21,9 +21,9 @@ let package = Package(
 //         Targets are the basic building blocks of a package. A target can define a module or a test suite.
 //         Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "YebiswGen",
+            name: "yebiswgen",
             dependencies: ["Yebisw", "SourceKittenFramework", "Commander"],
-            path: "Sources/YebiswGen"),
+            path: "Sources/yebiswgen"),
         .target(name: "Yebisw",
                 path: "Sources/Yebisw"),
         .testTarget(

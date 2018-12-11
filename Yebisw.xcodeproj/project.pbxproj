@@ -93,111 +93,111 @@
 		OBJ_289 /* ABTestPatternProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ABTestPatternProtocol.swift */; };
 		OBJ_290 /* ABTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ABTestProtocol.swift */; };
 		OBJ_291 /* ABTesterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ABTesterProtocol.swift */; };
-		OBJ_298 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* main.swift */; };
-		OBJ_300 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Commander::Commander::Product" /* Commander.framework */; };
-		OBJ_301 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
-		OBJ_302 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
-		OBJ_303 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
-		OBJ_304 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
-		OBJ_305 /* SourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKit::Product" /* SourceKit.framework */; };
-		OBJ_306 /* Clang_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::Clang_C::Product" /* Clang_C.framework */; };
-		OBJ_307 /* Yebisw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yebisw::Yebisw::Product" /* Yebisw.framework */; };
-		OBJ_321 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_298 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_304 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* main.swift */; };
+		OBJ_306 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Commander::Commander::Product" /* Commander.framework */; };
+		OBJ_307 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */; };
+		OBJ_308 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::Yams::Product" /* Yams.framework */; };
+		OBJ_309 /* CYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yams::CYaml::Product" /* CYaml.framework */; };
+		OBJ_310 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */; };
+		OBJ_311 /* SourceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::SourceKit::Product" /* SourceKit.framework */; };
+		OBJ_312 /* Clang_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SourceKitten::Clang_C::Product" /* Clang_C.framework */; };
+		OBJ_313 /* Yebisw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Yebisw::Yebisw::Product" /* Yebisw.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1705FE7621B8FBF2005AB72C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Yams::CYaml";
-			remoteInfo = CYaml;
-		};
-		1705FE7721B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED021BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Commander::Commander";
 			remoteInfo = Commander;
 		};
-		1705FE7821B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED121BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::SourceKittenFramework";
 			remoteInfo = SourceKittenFramework;
 		};
-		1705FE7921B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED221BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::Yams";
 			remoteInfo = Yams;
 		};
-		1705FE7A21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED321BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		1705FE7B21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED421BFA43A00415D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Yams::CYaml";
+			remoteInfo = CYaml;
+		};
+		1707AED521BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SWXMLHash::SWXMLHash";
 			remoteInfo = SWXMLHash;
 		};
-		1705FE7C21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED621BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::SourceKit";
 			remoteInfo = SourceKit;
 		};
-		1705FE7D21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED721BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::Clang_C";
 			remoteInfo = Clang_C;
 		};
-		1705FE7E21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED821BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::Yams";
 			remoteInfo = Yams;
 		};
-		1705FE7F21B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AED921BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Yams::CYaml";
 			remoteInfo = CYaml;
 		};
-		1705FE8021B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AEDA21BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SWXMLHash::SWXMLHash";
 			remoteInfo = SWXMLHash;
 		};
-		1705FE8121B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AEDB21BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::SourceKit";
 			remoteInfo = SourceKit;
 		};
-		1705FE8221B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AEDC21BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SourceKitten::Clang_C";
 			remoteInfo = Clang_C;
 		};
-		1705FE8321B8FBF2005AB72C /* PBXContainerItemProxy */ = {
+		1707AEDD21BFA43A00415D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -312,7 +312,7 @@
 		"Yams::CYaml::Product" /* CYaml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYaml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Yams::Yams::Product" /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Yebisw::Yebisw::Product" /* Yebisw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Yebisw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Yebisw::YebiswGen::Product" /* YebiswGen */ = {isa = PBXFileReference; lastKnownFileType = text; path = YebiswGen; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Yebisw::yebiswgen::Product" /* yebiswgen */ = {isa = PBXFileReference; lastKnownFileType = text; path = yebiswgen; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,18 +378,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_299 /* Frameworks */ = {
+		OBJ_305 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_300 /* Commander.framework in Frameworks */,
-				OBJ_301 /* SourceKittenFramework.framework in Frameworks */,
-				OBJ_302 /* Yams.framework in Frameworks */,
-				OBJ_303 /* CYaml.framework in Frameworks */,
-				OBJ_304 /* SWXMLHash.framework in Frameworks */,
-				OBJ_305 /* SourceKit.framework in Frameworks */,
-				OBJ_306 /* Clang_C.framework in Frameworks */,
-				OBJ_307 /* Yebisw.framework in Frameworks */,
+				OBJ_306 /* Commander.framework in Frameworks */,
+				OBJ_307 /* SourceKittenFramework.framework in Frameworks */,
+				OBJ_308 /* Yams.framework in Frameworks */,
+				OBJ_309 /* CYaml.framework in Frameworks */,
+				OBJ_310 /* SWXMLHash.framework in Frameworks */,
+				OBJ_311 /* SourceKit.framework in Frameworks */,
+				OBJ_312 /* Clang_C.framework in Frameworks */,
+				OBJ_313 /* Yebisw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,26 +435,26 @@
 		OBJ_123 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				"Yebisw::yebiswgen::Product" /* yebiswgen */,
 				"Yebisw::Yebisw::Product" /* Yebisw.framework */,
-				"Commander::Commander::Product" /* Commander.framework */,
 				"Yams::Yams::Product" /* Yams.framework */,
+				"SourceKitten::SourceKit::Product" /* SourceKit.framework */,
 				"SWXMLHash::SWXMLHash::Product" /* SWXMLHash.framework */,
-				"Yebisw::YebiswGen::Product" /* YebiswGen */,
+				"Commander::Commander::Product" /* Commander.framework */,
+				"SourceKitten::Clang_C::Product" /* Clang_C.framework */,
 				"Yams::CYaml::Product" /* CYaml.framework */,
 				"SourceKitten::SourceKittenFramework::Product" /* SourceKittenFramework.framework */,
-				"SourceKitten::SourceKit::Product" /* SourceKit.framework */,
-				"SourceKitten::Clang_C::Product" /* Clang_C.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_13 /* YebiswGen */ = {
+		OBJ_13 /* yebiswgen */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_14 /* main.swift */,
 			);
-			name = YebiswGen;
-			path = Sources/YebiswGen;
+			name = yebiswgen;
+			path = Sources/yebiswgen;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_15 /* Tests */ = {
@@ -611,7 +611,7 @@
 			path = ".build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKittenFramework";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -620,13 +620,14 @@
 				OBJ_16 /* Dependencies */,
 				OBJ_123 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* Yebisw */,
-				OBJ_13 /* YebiswGen */,
+				OBJ_13 /* yebiswgen */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -865,9 +866,9 @@
 		};
 		"Yebisw::SwiftPMPackageDescription" /* YebiswPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_317 /* Build configuration list for PBXNativeTarget "YebiswPackageDescription" */;
+			buildConfigurationList = OBJ_294 /* Build configuration list for PBXNativeTarget "YebiswPackageDescription" */;
 			buildPhases = (
-				OBJ_320 /* Sources */,
+				OBJ_297 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -893,28 +894,28 @@
 			productReference = "Yebisw::Yebisw::Product" /* Yebisw.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"Yebisw::YebiswGen" /* YebiswGen */ = {
+		"Yebisw::yebiswgen" /* yebiswgen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_294 /* Build configuration list for PBXNativeTarget "YebiswGen" */;
+			buildConfigurationList = OBJ_300 /* Build configuration list for PBXNativeTarget "yebiswgen" */;
 			buildPhases = (
-				OBJ_297 /* Sources */,
-				OBJ_299 /* Frameworks */,
+				OBJ_303 /* Sources */,
+				OBJ_305 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_308 /* PBXTargetDependency */,
-				OBJ_309 /* PBXTargetDependency */,
-				OBJ_310 /* PBXTargetDependency */,
-				OBJ_311 /* PBXTargetDependency */,
-				OBJ_312 /* PBXTargetDependency */,
-				OBJ_313 /* PBXTargetDependency */,
 				OBJ_314 /* PBXTargetDependency */,
 				OBJ_315 /* PBXTargetDependency */,
+				OBJ_316 /* PBXTargetDependency */,
+				OBJ_317 /* PBXTargetDependency */,
+				OBJ_318 /* PBXTargetDependency */,
+				OBJ_319 /* PBXTargetDependency */,
+				OBJ_320 /* PBXTargetDependency */,
+				OBJ_321 /* PBXTargetDependency */,
 			);
-			name = YebiswGen;
-			productName = YebiswGen;
-			productReference = "Yebisw::YebiswGen::Product" /* YebiswGen */;
+			name = yebiswgen;
+			productName = yebiswgen;
+			productReference = "Yebisw::yebiswgen::Product" /* yebiswgen */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -924,11 +925,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					"Yams::CYaml" = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Yebisw" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -937,7 +933,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_123 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -954,8 +950,8 @@
 				"Yams::Yams" /* Yams */,
 				"Yams::SwiftPMPackageDescription" /* YamsPackageDescription */,
 				"Yebisw::Yebisw" /* Yebisw */,
-				"Yebisw::YebiswGen" /* YebiswGen */,
 				"Yebisw::SwiftPMPackageDescription" /* YebiswPackageDescription */,
+				"Yebisw::yebiswgen" /* yebiswgen */,
 			);
 		};
 /* End PBXProject section */
@@ -1129,15 +1125,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_298 /* main.swift in Sources */,
+				OBJ_298 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_320 /* Sources */ = {
+		OBJ_303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_321 /* Package.swift in Sources */,
+				OBJ_304 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,72 +1143,72 @@
 		OBJ_242 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::Yams" /* Yams */;
-			targetProxy = 1705FE7921B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED221BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 1705FE7A21B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED421BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_245 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
-			targetProxy = 1705FE7B21B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED521BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_246 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SourceKitten::SourceKit" /* SourceKit */;
-			targetProxy = 1705FE7C21B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED621BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SourceKitten::Clang_C" /* Clang_C */;
-			targetProxy = 1705FE7D21B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED721BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 1705FE7621B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_308 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Commander::Commander" /* Commander */;
-			targetProxy = 1705FE7721B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_309 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
-			targetProxy = 1705FE7821B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_310 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Yams::Yams" /* Yams */;
-			targetProxy = 1705FE7E21B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_311 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Yams::CYaml" /* CYaml */;
-			targetProxy = 1705FE7F21B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_312 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
-			targetProxy = 1705FE8021B8FBF2005AB72C /* PBXContainerItemProxy */;
-		};
-		OBJ_313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SourceKitten::SourceKit" /* SourceKit */;
-			targetProxy = 1705FE8121B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AED321BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_314 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SourceKitten::Clang_C" /* Clang_C */;
-			targetProxy = 1705FE8221B8FBF2005AB72C /* PBXContainerItemProxy */;
+			target = "Commander::Commander" /* Commander */;
+			targetProxy = 1707AED021BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 		OBJ_315 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "SourceKitten::SourceKittenFramework" /* SourceKittenFramework */;
+			targetProxy = 1707AED121BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Yams::Yams" /* Yams */;
+			targetProxy = 1707AED821BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Yams::CYaml" /* CYaml */;
+			targetProxy = 1707AED921BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SWXMLHash::SWXMLHash" /* SWXMLHash */;
+			targetProxy = 1707AEDA21BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SourceKitten::SourceKit" /* SourceKit */;
+			targetProxy = 1707AEDB21BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SourceKitten::Clang_C" /* Clang_C */;
+			targetProxy = 1707AEDC21BFA43A00415D01 /* PBXContainerItemProxy */;
+		};
+		OBJ_321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = "Yebisw::Yebisw" /* Yebisw */;
-			targetProxy = 1705FE8321B8FBF2005AB72C /* PBXContainerItemProxy */;
+			targetProxy = 1707AEDD21BFA43A00415D01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1220,8 +1216,7 @@
 		OBJ_135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1240,8 +1235,6 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGET_NAME = CYaml;
 			};
 			name = Debug;
@@ -1249,8 +1242,7 @@
 		OBJ_136 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1269,7 +1261,6 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGET_NAME = CYaml;
 			};
 			name = Release;
@@ -1707,56 +1698,18 @@
 		OBJ_295 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include",
-					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKit/include",
-					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/Clang_C/include",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C",
-				);
-				INFOPLIST_FILE = Yebisw.xcodeproj/YebiswGen_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C/module.modulemap";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = YebiswGen;
 			};
 			name = Debug;
 		};
 		OBJ_296 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include",
-					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKit/include",
-					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/Clang_C/include",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit",
-					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C",
-				);
-				INFOPLIST_FILE = Yebisw.xcodeproj/YebiswGen_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C/module.modulemap";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = YebiswGen;
 			};
 			name = Release;
 		};
@@ -1782,21 +1735,59 @@
 			};
 			name = Debug;
 		};
-		OBJ_318 /* Debug */ = {
+		OBJ_301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include",
+					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKit/include",
+					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/Clang_C/include",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C",
+				);
+				INFOPLIST_FILE = Yebisw.xcodeproj/yebiswgen_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C/module.modulemap";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
+				TARGET_NAME = yebiswgen;
 			};
 			name = Debug;
 		};
-		OBJ_319 /* Release */ = {
+		OBJ_302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include",
+					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/SourceKit/include",
+					"$(SRCROOT)/.build/checkouts/SourceKitten.git-6484296299232452758/Source/Clang_C/include",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit",
+					"$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C",
+				);
+				INFOPLIST_FILE = Yebisw.xcodeproj/yebiswgen_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/CYaml/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/SourceKit/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Yebisw.xcodeproj/GeneratedModuleMap/Clang_C/module.modulemap";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
+				TARGET_NAME = yebiswgen;
 			};
 			name = Release;
 		};
@@ -1940,7 +1931,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_294 /* Build configuration list for PBXNativeTarget "YebiswGen" */ = {
+		OBJ_294 /* Build configuration list for PBXNativeTarget "YebiswPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_295 /* Debug */,
@@ -1949,11 +1940,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_317 /* Build configuration list for PBXNativeTarget "YebiswPackageDescription" */ = {
+		OBJ_300 /* Build configuration list for PBXNativeTarget "yebiswgen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_318 /* Debug */,
-				OBJ_319 /* Release */,
+				OBJ_301 /* Debug */,
+				OBJ_302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
