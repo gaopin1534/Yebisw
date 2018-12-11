@@ -32,9 +32,9 @@ let package = Package(
             path: "Sources/YebiswGenCore"),
         .target(name: "Yebisw",
                 path: "Sources/Yebisw"),
-        .testTarget(
-            name: "YebiswTests",
-            dependencies: ["Yebisw"],
-            path: "Tests"),
+//        .testTarget(
+//            name: "YebiswTests",
+//            dependencies: ["Yebisw"],
+//            path: "Tests"),
         ]
 )
